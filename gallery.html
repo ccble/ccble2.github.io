@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Gallery</title>
+	<style>
+		
+        body {
+            margin: 10%;
+            background: radial-gradient(at 0% 20%, #EE6F9A  30%, white );
+        }
+        h1 {
+            border: 4px dotted #63C1EF;
+            text-align: center;
+            font-family: Roboto, sans-serif;
+            color: white;
+
+        }
+        .container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 20px;
+		}
+
+		.image {
+			margin: 10px;
+			border: 2px solid black;
+			padding: 10px;
+			max-width: 300px;
+		}
+
+		.image img {
+			max-width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<h1>Gallery</h1>
+	<div class="container">
+		<div class="image">
+			<img src="images/image1.png" alt="Image 1">
+		</div>
+		<div class="image">
+			<img src="images/image2.png" alt="Image 2">
+		</div>
+		<div class="image">
+			<img src="images/image3.png" alt="Image 3">
+		</div>
+		<div class="image">
+			<img src="images/image4.png" alt="Image 4">
+        </div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+
+body {
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+    margin: 5%;
+    background: radial-gradient(at 0% 30%, #63C1EF 30%, #EE6F9A );
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 36px; /* Set font size to 36 pixels */
+    margin: 1;
+    justify-content: center;
+}
+
+
+
+.pink{
+    color: #EE6F9A;
+}
+
+.blue{
+    color: #63C1EF;
+}
+
+nav {
+    font-size: 25px;
+    height: 200px;
+    width: 250px;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+   
+
+}
+   
+a{
+    color: #2B2B2B;
+}
+/*
+#initials{
+    height: 1000px;
+    width: 450px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) translateX(-35%) rotate(-0.1turn);
+
+}
+*/
+
+header {
+    position: relative;
+    height: 100px;
+    background-color: #eee;
+  }
